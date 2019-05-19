@@ -1,4 +1,5 @@
-require 'data_mapper'
+require 'dm-core'
+require 'dm-migrations'
 
 DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/students.db")
 

@@ -2,7 +2,6 @@ require 'sinatra'
 require './students'
 require './comments'
 
-
 get '/login' do
   erb :login
 end
