@@ -1,0 +1,10 @@
+<h1>create new comment</h1>
+<form action="/comments/new" method='post'>
+  Please input your name:<input id="name" type='text' name='comment[name]' required> </input><br>
+  Please input your comments:<input id="comment" type='text' name='comment[comment]' required></input><br>
+  <input id="created_at" type='DateTime' name='comment[created_at]' value="<%=@current_time %>" hidden></input>
+  <input type='submit' name='submit'></input>
+</form>
+
+
+

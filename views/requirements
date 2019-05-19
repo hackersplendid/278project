@@ -1,0 +1,25 @@
+Part 1. You create these 4 functions: students, comment, video, login/logout
+
+For students, the application should have functions shown in the diagram (see
+separate diagram file)
+
+- show all of the students, add new student, show each students info. Edit each
+students, delete student
+
+You need to create a student table for student information. It should have student
+firstname, lastname, birthday, address, student id, and other properties you like.
+
+For comment, the application will be able to:
+- show all the comment (with timestamp)
+- create new comment
+- show a specific comment (by clicking on it), with name, time created, and comment
+content
+
+You need to create a comment table for comment information. It should have name of
+the person, comment. You need also create more route handlers.
+
+For timestamp, create a “created_at” property, Sinatra will automatically fill this field with
+time when the comment is created.
+
+
+

@@ -1,0 +1,12 @@
+<h1>edit student form</h1>
+<%if @student_obj %>
+<form action="/students/<%=@student_obj.id %>/edit" method='post'>
+  firstname:<input id='fname' type='text' name='student[firstname]' required> </input><br>
+  lastname: <input id='lname' type='text' name='student[lastname]' required></input><br>
+  birthday: <input id='birthday' type='date' name='student[birthday]' required></input><br>
+  address:<input id='address' type='text' name='student[address]' required></input><br>
+  student id:<input id='stid' type='text' name='student[student_id]' required></input><br>
+
+  <input type='submit' value="save"></input>
+</form>
+<%end %>

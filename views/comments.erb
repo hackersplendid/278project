@@ -1,0 +1,11 @@
+<h2>Students Information System </h2>
+<a href="/comments/new">creat new student form</a>
+<br>
+<ul>
+  <%if @comments_obj %>
+    <p style="color:red">Comments list</p>
+    <% @comments_obj.each do |comment_obj| %>
+      <li><a href="/comments/<%=comment_obj.id%>"><%= comment_obj.comment %>---<%= comment_obj.created_at %>  </a></li>
+    <% end %>
+  <% end %>
+</ul>
