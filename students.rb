@@ -1,6 +1,6 @@
 require 'dm-core'
 require 'dm-migrations'
-
+#require 'data_mapper'
 
 
 #define the model
