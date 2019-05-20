@@ -1,7 +1,7 @@
 require 'dm-core'
 require 'dm-migrations'
 
-DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/students.db")
+
 
 #define the model
 class Students
@@ -14,11 +14,7 @@ class Students
   property :student_id, Integer
 end
 
-configure do
-  enable :sessions
-  set username: "yirui"
-  set password: "COEN278"
-end
+DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/students.db")
 
 DataMapper.finalize
 DataMapper.auto_migrate!

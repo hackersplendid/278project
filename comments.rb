@@ -10,6 +10,7 @@ class Comments
   property :created_at, DateTime
 end
 
+
 DataMapper.finalize
 DataMapper.auto_migrate!
 DataMapper.auto_upgrade!

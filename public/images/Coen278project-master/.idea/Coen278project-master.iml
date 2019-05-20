@@ -21,7 +21,7 @@
     <orderEntry type="library" scope="PROVIDED" name="dm-types (v1.2.2, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dm-validations (v1.2.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fastercsv (v1.5.5, rbenv: 2.6.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.10.0, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.11.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.6, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json_pure (v1.8.6, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.13.1, rbenv: 2.6.1) [gem]" level="application" />
