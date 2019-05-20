@@ -6,7 +6,8 @@ gem "dm-core"
 gem "dm-migrations"
 gem "data_mapper"
 gem "thin"
-gem "pg", :group => :production
-gem "dm-postgres-adapter", :group => :production
+gem "pg"
+gem "erb"
+gem "dm-postgres-adapter"
 gem "dm-sqlite-adapter", :group => :development
 
