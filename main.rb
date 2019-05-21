@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'dm-core'
 require 'dm-migrations'
+require 'dm-sqlite-adapter'
 require './students'
 require './comments'
 
