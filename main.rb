@@ -13,7 +13,6 @@ configure :development do
 end
 
 configure :production do
-  require 'data_mapper'
   DataMapper.setup(:default, ENV['DATABASE_URL'])
 end
 
