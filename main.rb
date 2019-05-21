@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'dm-core'
+require 'dm-migrations'
 require './students'
 require './comments'
 
