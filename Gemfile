@@ -4,7 +4,7 @@ gem "slim"
 gem "sass"
 gem "dm-core"
 gem "dm-migrations"
-
+gem "dm-sqlite-adapter"
 gem "thin"
 gem "pg"
 #gem "erb"
