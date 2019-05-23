@@ -1,10 +1,10 @@
 require 'sinatra'
 require 'dm-core'
 require 'dm-migrations'
-
+#app link: https://myfirst278app.herokuapp.com/
 
 configure do
-  #set :environment, :production
+  set :environment, :production
   enable :sessions
   set username: "yirui"
   set password: "COEN278"
