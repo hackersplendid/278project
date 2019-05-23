@@ -6,6 +6,7 @@ require './students'
 require './comments'
 
 configure do
+  set :environment, :production
   enable :sessions
   set username: "yirui"
   set password: "COEN278"
