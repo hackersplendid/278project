@@ -2,6 +2,7 @@
 #require 'data_mapper'
 
 
+
 #define the model
 class Students
   include DataMapper::Resource
