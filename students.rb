@@ -13,7 +13,6 @@ class Students
   property :student_id, Integer
 end
 
-DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/students.db")
 
 DataMapper.finalize
 DataMapper.auto_migrate!
