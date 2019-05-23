@@ -6,7 +6,7 @@ require './students'
 require './comments'
 
 configure do
-  set :environment, :production
+  #set :environment, :production
   enable :sessions
   set username: "yirui"
   set password: "COEN278"
@@ -15,6 +15,8 @@ end
 configure :development do
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/students.db")
 end
+
+
 
 configure :production do
   DataMapper.setup(:default, ENV['DATABASE_URL'])
