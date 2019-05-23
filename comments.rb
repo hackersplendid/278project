@@ -1,7 +1,3 @@
-# require 'dm-core'
-# require 'dm-migrations'
-#require 'data_mapper'
-#define the model
 class Comments
   include DataMapper::Resource
   property :id, Serial

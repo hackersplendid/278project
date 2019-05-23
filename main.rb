@@ -4,7 +4,7 @@ require 'dm-migrations'
 
 
 configure do
-  set :environment, :production
+  #set :environment, :production
   enable :sessions
   set username: "yirui"
   set password: "COEN278"
